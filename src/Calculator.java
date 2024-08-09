@@ -1,4 +1,5 @@
 public class Calculator {
+  
     public float multiplication(float a, float b) {
         return a * b;
     }
@@ -8,5 +9,13 @@ public class Calculator {
             return a / b;
         }
         return 0f;
+    }
+  
+    public float sum(float a, float b) {
+        return a + b;
+    }
+
+    public float subtract(float a, float b) {
+        return a - b;
     }
 }
